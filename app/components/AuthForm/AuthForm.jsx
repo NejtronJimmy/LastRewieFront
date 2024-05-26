@@ -53,7 +53,7 @@ export const AuthForm = (props) => {
             onInput={handleInput}
             className={Styles["form__field-input"]}
             type="password"
-            name="password"
+            email="password"
             placeholder="***********"
           />
         </label>
