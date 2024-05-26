@@ -277,6 +277,11 @@ export const data = [
         username: "Ilya",
         email: "ilya@example.com",
       },
+      {
+        id: 3,
+        username: "aski",
+        email: "aski@example.com",
+      },
     ],
   },
 ];
