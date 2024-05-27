@@ -1,11 +1,5 @@
 'use client';
 
-
-const PORT = 3001;
-
-app.listen(PORT);
-
-
 import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
 

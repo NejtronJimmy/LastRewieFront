@@ -8,7 +8,7 @@ import { useStore } from "@/app/store/app-store";
 
 export const AuthForm = (props) => {
   const authContext = useStore();
-  const [authData, setAuthData] = useState({ identifier: "", password: "" });
+  const [authData, setAuthData] = useState({ email: "", password: "" });
   const [message, setMessage] = useState({ status: null, text: null });
   const handleInput = (e) => {
     setAuthData({ ...authData, [e.target.name]: e.target.value });
